@@ -16,8 +16,8 @@ namespace HttpSearchInGoogle
             Console.Write("Введите текст для поиска: ");
             string query = Console.ReadLine();
 
-            string apiKey = "AIzaSyAw8aJLA697dECAwh3KbxFb7k8Ra2nPJ3k"; // Ключ API
-            string searchEngineId = "47b41035edf264f33"; // Идентификатор поисковой системы
+            string apiKey = " "; // Ключ API
+            string searchEngineId = " "; // Идентификатор поисковой системы
 
             string apiUrl = $"https://www.googleapis.com/customsearch/v1?key={apiKey}&cx={searchEngineId}&q={Uri.EscapeDataString(query)}";
 
